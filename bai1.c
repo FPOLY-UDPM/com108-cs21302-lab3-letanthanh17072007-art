@@ -1,7 +1,7 @@
 /******************************************************************************
- * Họ và tên: [ĐIỀN TÊN TẠI ĐÂY]
- * MSSV:      [ĐIỀN MSSV TẠI ĐÂY]
- * Lớp:       [ĐIỀN LỚP TẠI ĐÂY]
+ * Họ và tên: [LÊ TẤN THÀNH]
+ * MSSV:      [PS 48491]
+ * Lớp:       [COM108 CS21302]
  *****************************************************************************/
 
 // BÀI 1: XÂY DỰNG CHƯƠNG TRÌNH TÍNH HỌC LỰC  
@@ -18,14 +18,21 @@
 #include <stdio.h>
 
 int main(){
+    // khai bao bien
+    float diem;
+    // nhap du lieu
+    printf("xet hoc luc\n");
+    printf("nhap diem:");
+    scanf("%f",&diem);
+    // xu ly, tinh toan VA hien thi ket qua
+if (diem<=0||diem>=10){printf("Điểm không hợp lệ");
+    }else if(diem>=9){printf("Học lực xuất sắc");
+    }else if(diem<9&&diem>=8){printf("Học lưc giỏi");
+    }else if(diem<8&&diem>=6.5){printf("Học lực khá");
+    }else if(diem<6.5&&diem>=5){printf("Học lực trung bình");
+    }else if(diem<5&&diem>=3.5){printf("Học lực yếu");
+    }else if(diem<3.5){printf("Học lực kém");}
 
-    // Khai báo biến
-
-
-    // Nhập dữ liệu
-
-
-    // Xử lý, tính toán VÀ Hiển thị kết quả
 
     return 0;
 }
